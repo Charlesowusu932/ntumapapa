@@ -1,6 +1,6 @@
 body {
     margin: 0;
-  	font-family: 'Raleway', sans-serif;
+  	font-family: 'Open Sans', sans-serif;
    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -73,12 +73,10 @@ body {
     border-radius: 0.01rem;
 }
 
-
 .thumwo {
     margin-top: -11rem;
     padding-right: 4rem;
 }
-
 
 .thumen {
     margin-top: -9rem;
@@ -88,4 +86,74 @@ body {
 .thuase {
     margin-top: -9rem;
     color: white;
+}
+
+.ntumaprotext {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.amttext {
+    margin-bottom: 0px;
+    font-size: 13px;
+
+}
+
+.brand {
+    display: block;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #404040;
+    border-bottom: 1px solid #e9e9e9;
+    margin: 4px 0;
+    padding-bottom: 4px;
+}
+
+.img-ntuma {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.protog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.protog a {
+    color: black;
+    text-decoration: none;
+}
+
+.protog a:hover {
+    color: #A5997C;
+    text-decoration: none;
+    transition: all 400ms ease-out;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #A5997C;
+    background-color: #171a1d00;
+    font-weight: bolder;
+}
+
+.nav-pills a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.nav-pills a:hover {
+    color: #A5997C;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+      transition: all 400ms ease-out;
 }
