@@ -51,6 +51,19 @@ body {
       font-weight: bolder;
 }
 
+
+ .ntumah1b {
+       font-size: 4.5rem;
+       font-weight: bolder;
+ }
+
+ @media (max-width: 575.98px) {
+   .ntumah1b {
+         font-size: 2.5rem;
+         font-weight: bolder;
+   }
+  }
+
 .ntumah2 {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -61,6 +74,20 @@ body {
   padding-bottom: 80px;
 }
 
+.homfot {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.homfot a {
+  color: #000;
+}
+
+.homprcat2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #fbfbfb;
+}
 
 .thirtypadb {
     padding-bottom: 30px;
@@ -78,10 +105,28 @@ body {
     padding-right: 4rem;
 }
 
+@media (max-width: 575.98px) {
+  .thumwo {
+    margin-top: -10rem;
+  padding-right: 1rem;
+  padding-bottom: 10rem;
+  }
+ }
+
+
+
 .thumen {
     margin-top: -9rem;
     padding-left: 4rem;
 }
+
+@media (max-width: 575.98px) {
+  .thumen {
+      margin-top: -8rem;
+      padding-left: 1rem;
+  }
+ }
+
 
 .thuase {
     margin-top: -9rem;
@@ -97,8 +142,14 @@ body {
 .amttext {
     margin-bottom: 0px;
     font-size: 13px;
-
 }
+
+
+.amttext3 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
 
 .brand {
     display: block;
@@ -201,6 +252,87 @@ body {
     color: white;
 }
 
-element.style {
-    font-size: 30px;
+.addpad {
+  padding-bottom: 30px;
+}
+
+.brag {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30) ), url(../img/brag.jpg);
+    height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8em;
+    padding-bottom: 20em;
+}
+
+.wc{
+  color: white;
+}
+
+.img-brand {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.sellinfpoint {
+    background: #B8AF97;
+    height: 200px;
+    color: #fff;
+}
+
+.sptitle {
+    padding: 24px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #c5beaa;
+    background-clip: border-box;
+    border: 1px solid #c5beaa;
+    border-radius: 0.1rem;
+}
+
+.homprcath {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c5beaa;
+    border-color: #c5beaa;
+    border-radius: 0.01rem;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.01rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.mailing {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: #F9F9F9;
 }
