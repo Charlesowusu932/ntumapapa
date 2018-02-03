@@ -157,3 +157,50 @@ body {
     -webkit-text-decoration-skip: objects;
       transition: all 400ms ease-out;
 }
+
+.cont{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #00000087;
+}
+
+.cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-2xb {
+    font-size: 30px;
+    color: white;
+}
+
+element.style {
+    font-size: 30px;
+}
