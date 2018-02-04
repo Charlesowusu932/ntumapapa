@@ -440,3 +440,21 @@ body {
     border-color: #614735;
     border-radius: 0.01rem;
 }
+
+
+/*  Listing page*/
+
+.productlist {
+
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.smallpad {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.smallpad2 {
+    padding-right: 5px;
+}
