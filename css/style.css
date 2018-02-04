@@ -9,6 +9,11 @@ body {
     background-color: #fff;
 }
 
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #614735;
+    font-weight: bolder;
+}
+
 .nav-item {
   padding-left: 12px;
   padding-right: 12px;
@@ -204,14 +209,14 @@ body {
 }
 
 .protog a:hover {
-    color: #A5997C;
+    color: #845F46;
     text-decoration: none;
     transition: all 400ms ease-out;
 }
 
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #A5997C;
+    color: #BF9F86;
     background-color: #171a1d00;
     font-weight: bolder;
 }
@@ -224,7 +229,7 @@ body {
 }
 
 .nav-pills a:hover {
-    color: #A5997C;
+    color: #BF9F86;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -319,9 +324,9 @@ body {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #c5beaa;
+    background-color: #845F46;
     background-clip: border-box;
-    border: 1px solid #c5beaa;
+    border: 1px solid #845F46;
     border-radius: 0.1rem;
 }
 
@@ -332,8 +337,8 @@ body {
 
 .btn-primary {
     color: #fff;
-    background-color: #c5beaa;
-    border-color: #c5beaa;
+    background-color: #845F46;
+    border-color: #845F46;
     border-radius: 0.01rem;
 }
 
@@ -360,7 +365,7 @@ body {
 }
 
 .homfot a:hover {
-    color: #c5beaa;
+    color: #614735;
     text-decoration: none;
     transition: all 400ms ease-out;
 }
@@ -431,7 +436,7 @@ body {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #c5beaa;
-    border-color: #c5beaa;
+    background-color: #614735;
+    border-color: #614735;
     border-radius: 0.01rem;
 }
