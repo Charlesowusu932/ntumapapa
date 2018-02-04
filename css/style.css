@@ -15,6 +15,16 @@ body {
   font-size: 15px;
 }
 
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 0.01rem;
+  }
+
+
 .bg-light {
     background-color: #ffffff !important;
     border-bottom: 1px #eee solid;
@@ -76,7 +86,7 @@ body {
 
 .homfot {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 5px;
 }
 
 .homfot a {
@@ -126,6 +136,18 @@ body {
       padding-left: 1rem;
   }
  }
+
+
+.thumen a {
+
+  color: #000;
+}
+
+.thumen a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 
 
 .thuase {
@@ -206,7 +228,7 @@ body {
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-      transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .cont{
@@ -335,4 +357,81 @@ body {
     padding-top: 30px;
     padding-bottom: 15px;
     background: #F9F9F9;
+}
+
+.homfot a:hover {
+    color: #c5beaa;
+    text-decoration: none;
+    transition: all 400ms ease-out;
+}
+
+
+.dropdown-menu {
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.01rem;
+}
+
+.dropdown-menu2 {
+    top: 100%;
+    left: -200px;
+    z-index: 1000;
+    min-width: 100%;
+    padding: -5.5rem 15px;
+    margin: 0.125rem 0 0;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.01rem;
+    padding: 20px;
+}
+
+.cardrop {
+    top: 100%;
+    left: -200px;
+    z-index: 1000;
+    min-width: 100%;
+    padding: -5.5rem 15px;
+    margin: 0.125rem 0 0;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(195, 195, 195, 0.36);
+    border-radius: 0.01rem;
+    padding: 20px;
+}
+
+.img-cart {
+    height: 53px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.row.cartd {
+    padding-bottom: 20px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c5beaa;
+    border-color: #c5beaa;
+    border-radius: 0.01rem;
 }
