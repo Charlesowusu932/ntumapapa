@@ -1,10 +1,12 @@
 # ntumapapa
 
 Initial CSS
-Bootstarp 4
-Style
+•	Bootstarp 4
+•	Style
 
 Inital JS 
-jQuery first, then Popper.js, then Bootstrap JS 
+•	jQuery 
+•	Popper.js
+•	Bootstrap JS 
 
 Additial JS
