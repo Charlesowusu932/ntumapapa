@@ -1,7 +1,7 @@
 body {
     margin: 0;
   	font-family: 'Open Sans', sans-serif;
-   font-size: 1rem;
+   font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -17,7 +17,7 @@ body {
 .nav-item {
   padding-left: 12px;
   padding-right: 12px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .navbar-toggler {
@@ -195,6 +195,24 @@ body {
     object-fit: cover;
     object-position: center center;
 }
+
+
+.img-ntuma2 {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+ @media (max-width: 575.98px) {
+   .img-ntuma2 {
+       height: 160px;
+       width: 100%;
+       object-fit: cover;
+       object-position: center center;
+   }
+  }
 
 
 .protog {
@@ -447,7 +465,11 @@ body {
 .productlist {
 
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
+}
+
+.prodmain{
+  padding-bottom: 3rem;
 }
 
 .smallpad {
@@ -457,4 +479,131 @@ body {
 
 .smallpad2 {
     padding-right: 5px;
+}
+
+
+.listcat {
+  padding: 0 0 15px 0;
+}
+
+.listcat a {
+  color: #000;
+  line-height: 2;
+}
+
+
+.listcat a:hover {
+  color: #845f46;
+  line-height: 2;
+  text-decoration: none;
+}
+
+
+.listbestselling {
+  padding: 0 0 15px 0;
+}
+
+
+.listbestselling a {
+  color: #000;
+}
+
+.listbestselling a:hover {
+color: #845f46;
+text-decoration: none;
+}
+
+.productlist a {
+color: #000;
+text-decoration: none;
+}
+
+.productlist a:hover {
+color: #845f46;
+text-decoration: none;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #845f46;
+    border-color: #845f46;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0.01em;
+    border-bottom-left-radius: 0.01rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0.01em;
+    border-bottom-right-radius: 0.01em;
+}
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    font-size: 13px;
+}
+
+.pagin {
+
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+
+/* Single product page */
+
+.singpro {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+
+
+.fb {
+    padding: 8px 10px 6px 10px;
+    background-color: #845f46;
+    color: white;
+    border-radius: 27px;
+}
+
+.fb:hover{
+    padding: 8px 10px 6px 10px;
+    background-color: #614735;
+    color: white;
+    border-radius: 27px;
+}
+
+.twi {
+  padding: 8px 7px 7px 8px;
+background-color: #845f46;
+color: white;
+border-radius: 27px;
+}
+
+.twi:hover {
+  padding: 8px 7px 7px 8px;
+background-color: #614735;
+color: white;
+border-radius: 27px;
+}
+
+.ig {
+  padding: 8px 9px 8px 9px;
+background-color: #845f46;
+color: white;
+border-radius: 27px;
+}
+
+.ig:hover {
+  padding: 8px 9px 8px 9px;
+background-color: #614735;
+color: white;
+border-radius: 27px;
 }
