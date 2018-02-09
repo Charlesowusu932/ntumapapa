@@ -822,3 +822,25 @@ float: right !important;
     text-decoration: none;
     font: bolder;
 }
+
+/* login */
+.loginbar {
+    padding-right: 100px;
+    border-right: 2px solid #eee;
+}
+
+.loginpad {
+    padding-top: 10rem;
+    padding-bottom: 80px;
+}
+
+.radiobn2 {
+    padding-left: 35px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
