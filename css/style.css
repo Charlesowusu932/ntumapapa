@@ -463,6 +463,20 @@ body {
     border-radius: 0.01rem;
 }
 
+.btn-outline-primary {
+    color: #0c0c0c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #845f46;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #845f46;
+    background-image: none;
+    border-color: #845f46;
+}
+
 
 /*  Listing page*/
 
