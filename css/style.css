@@ -857,3 +857,14 @@ float: right !important;
   font: 2rem;
   list-style: 1rem;
 }
+
+.searhm {
+    height: 45rem;
+    padding-top: 20%;
+    padding-bottom: 13%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    background-image: url(../img/btsbaycover.jpg);
+}
