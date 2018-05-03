@@ -286,16 +286,27 @@ body {
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.fa-2xb {
+ .fa-2xb {
     font-size: 30px;
-    color: white;
+    color: #ffffff;
+    border: white 1.5px solid;
+    border-radius: 5rem;
+    padding: 6px;
+    transition: all 0.7s;
 }
+
+.text .fa-2xb:hover {
+    color: #845f46;
+    border: #ffffff 1.5px solid;
+    background: #ffffff;
+}
+
 
 .addpad {
   padding-bottom: 30px;
@@ -939,5 +950,5 @@ float: right !important;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.01rem;
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: all 1s;
 }
