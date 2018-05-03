@@ -893,8 +893,10 @@ float: right !important;
     background-clip: border-box;
     border-radius: 0.1rem;
     border: solid 1px #f5f5f5;
+    transition: all 1s;
 
 }
+
 
 .designers a {
   color:  #212529;
@@ -915,9 +917,6 @@ float: right !important;
   color:  #845F46;
   text-decoration: none;
 }
-
-
-
 
 
 .card-body-ntuma {
